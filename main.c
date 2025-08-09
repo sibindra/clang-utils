@@ -4,13 +4,7 @@
 #include "include/bubble_sort.h"
 #include "include/selection_sort.h"
 #include "include/print_array.h"
-
-bool arrays_equal(int a[], int b[], int size) {
-    for (int i = 0; i < size; i++) {
-        if (a[i] != b[i]) return false;
-    }
-    return true;
-}
+#include "include/arrays_equal.h"
 
 int main() {
     int arr[] = {20, 30, 50, 200, 90, 10, 18, 9, 2, 44};

@@ -1,0 +1,1 @@
+gcc main.c sort/bubble_sort.c sort/selection_sort.c utils/print_array.c utils/swap.c utils/arrays_equal.c -Iinclude -o main 
